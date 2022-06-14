@@ -1,4 +1,8 @@
 "use strict";
+function printCoord(pt) {
+    console.log("The coordinate's x value is " + pt.x);
+    console.log("The coordinate's y value is " + pt.y);
+}
 let id = 5;
 let person = [1, 'brad', true];
 var Dir;

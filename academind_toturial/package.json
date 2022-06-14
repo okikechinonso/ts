@@ -5,11 +5,21 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "lite-server --baseDir=\"./dist/\""
+    "start": "node ./dist/app.js"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "lite-server": "^2.6.1"
+  },
+  "dependencies": {
+    "@types/pem-jwk": "^2.0.0",
+    "csv-parse": "^5.1.0",
+    "fastify": "^3.29.0",
+    "fs": "^0.0.1-security",
+    "jose": "^4.8.1",
+    "node-jwk": "^0.1.0",
+    "pem-jwk": "^2.0.0",
+    "ssh-to-jwk": "1.2.4"
   }
 }
